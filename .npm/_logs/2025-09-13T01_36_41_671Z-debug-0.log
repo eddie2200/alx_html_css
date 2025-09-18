@@ -1,0 +1,23 @@
+0 verbose cli /home/eddie2200/.nvm/versions/node/v22.19.0/bin/node /home/eddie2200/.nvm/versions/node/v22.19.0/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/home/eddie2200/.nvm/versions/node/v22.19.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/eddie2200/alx-frontend-javascript/0x04-TypeScript/task_1/.npmrc
+5 silly config load:file:/home/eddie2200/.npmrc
+6 silly config load:file:/home/eddie2200/.nvm/versions/node/v22.19.0/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/home/eddie2200/.npm/_logs/2025-09-13T01_36_41_671Z-
+10 verbose logfile /home/eddie2200/.npm/_logs/2025-09-13T01_36_41_671Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit report null
+17 verbose cwd /home/eddie2200/alx-frontend-javascript/0x04-TypeScript/task_1
+18 verbose os Linux 6.6.87.2-microsoft-standard-WSL2
+19 verbose node v22.19.0
+20 verbose npm  v10.9.3
+21 verbose exit 0
+22 info ok
