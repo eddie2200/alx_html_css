@@ -19,3 +19,8 @@ aside{
         flex: 1;
         overflow-y: auto;
 }
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%; 
+}
