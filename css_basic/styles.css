@@ -1,26 +1,48 @@
-body{
-	display: flex;
-	flex-direction: column;
+ body{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: #008080;
 
 }
 
 main{
-	display: flex;
-	flex-direction: row;
-	flex: auto;
+        display: flex;
+        flex-direction: row;
+        flex: auto;
 }
 
 article{
-	flex: 2;
-	overflow-y: auto;
+        flex: 2;
+        overflow-y: auto;
 }
 
 aside{
-	flex: 1;
-	overflow-y: auto;
-}
-#id{
-
+        flex: 1;
+        overflow-y: auto;
+        background-color: #48D1CC;
 }
 
+.heading{
+        color: #7FFFD4;
+}
+p{
+  color: white;
+}
+.links{
+  color: #7FFFD4;
+  text-decoration: none;
+}
+.links:hover{
+  text-decoration: underline;
+  color: white;
+}
+.links:active{
+  color: black;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
 
