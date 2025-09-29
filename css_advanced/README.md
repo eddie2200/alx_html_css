@@ -68,9 +68,9 @@ The browser renders only what’s inside the <body> tag. Anything outside it (li
 The elements under it include:
 | Tag                 | Purpose                                    |
 |---------------------|--------------------------------------------|
-|<header>	            |Top navigation and branding (logo, links)   |
-|<main>	              |Central content and sections of the website |
-|<footer>	(Optional)  |Bottom area for legal, links, etc.          |
+|header	              |Top navigation and branding (logo, links)   |
+|main	                |Central content and sections of the website |
+| footer	(Optional)  |Bottom area for legal, links, etc.          |
 
 ### (a). Header
 The header is found inside the body element and it contains the navigation links to the differnt parts of your website ie: Course, Pricing and Login in a list. It also contains the Logo (mostly an image and at times image and text) An example of the header.
