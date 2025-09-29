@@ -66,13 +66,11 @@ Example:
 The body tag defines the main content area of an HTML document. Everything that you want to display on the web page — such as text, images, buttons, navigation, sections, etc. — goes inside the <body>.
 The browser renders only what’s inside the <body> tag. Anything outside it (like inside <head>) is not visible to the user.
 The elements under it include:
-```
-| Tag                 | Purpose                                 |
-|---------------------|-----------------------------------------|
-|<header>	            |Top navigation and branding (logo, links)|
-|<main>	              |Central content and sections of the website|
-|<footer>	(Optional)  |Bottom area for legal, links, etc.|
-```
+| Tag                 | Purpose                                    |
+|---------------------|--------------------------------------------|
+|<header>	            |Top navigation and branding (logo, links)   |
+|<main>	              |Central content and sections of the website |
+|<footer>	(Optional)  |Bottom area for legal, links, etc.          |
 
 ### (a). Header
 The header is found inside the body element and it contains the navigation links to the differnt parts of your website ie: Course, Pricing and Login in a list. It also contains the Logo (mostly an image and at times image and text) An example of the header.
