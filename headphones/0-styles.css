@@ -1,0 +1,93 @@
+#header {
+  background-color: #ade5ea;
+  color: black;
+  padding: 1px 0;
+  height: 2cm;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 5px 0px #384e53;
+}
+
+#navigationBar,
+a {
+  display: inline-block;
+  /* Makes links stack vertically */
+  text-decoration: none;
+  /* Removes underline */
+  color: #ffffff;
+  /* Makes them look like normal text */
+  font-size: 18px;
+  margin: 10px 20px;
+  /* Adds space between items */
+  font-family: sans-serif;
+  border: 10px;
+  font-weight: bolder;
+}
+
+#navigationBar,
+a:hover {
+  color: purple;
+}
+
+
+
+#section-1 {
+  background-image: url('https://img.freepik.com/premium-photo/positive-person-listening-music-wireless-headphones-enjoying-audio-sound-mp3-song-headset-confident-guy-using-earphones-enjoy-stereo-record-radio-rhythm-studio_482257-40413.jpg?w=360');
+  background-size: cover;
+  /* Makes the image cover the whole area */
+  background-position: center;
+  /* Centers the image */
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  height: 100vh;
+  /* Makes the section full screen */
+  color: white;
+  /* Text color for visibility */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  /* horizontal */
+  align-items: center;
+  /* vertical */
+  height: 200px;
+  /* just to see the box */
+  width: 300px;
+}
+
+#hero-div1 {
+  width: 400px;
+  padding: 20px;
+}
+
+.hero-text {
+  width: 300px;
+  padding: 20px;
+  border-color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-text-div1 {
+  display: block;
+  width: 100%;
+}
+
+#hero-text-div2 {
+  display: block;
+  width: 100%;
+}
+
+#cta {
+  background-color: purple;
+  color: #ffffff;
+  border-radius: 10px 50px;
+  padding: 15px 30px;
+  font-size: 18px;
+}
