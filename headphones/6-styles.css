@@ -1,0 +1,30 @@
+.combined-shape {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  background-color: rgb(27, 54, 78);
+  /* Square color */
+  margin: 90px 100px;
+  /* Center horizontally */
+  display: inline-block;
+  text-align: center;
+
+}
+
+/* Triangle on top using ::before */
+.combined-shape::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  /* Moves triangle above the square */
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid red;
+  /* Same color as square */
+
+}

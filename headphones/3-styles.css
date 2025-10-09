@@ -1,0 +1,14 @@
+#contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* center vertically */
+  align-items: center;
+  /* center horizontally */
+  height: 70vh;
+  /* full screen height */
+  text-align: center;
+  gap: 2px;
+  /* space between lines */
+
+}

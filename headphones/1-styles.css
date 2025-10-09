@@ -1,0 +1,34 @@
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 2px solid black;
+  size: 20px;
+}
+
+#what-we-do-div2 {}
+
+.all-img {
+  display: inline-block;
+  width: 100px;
+  margin: 7%;
+  align-items: center;
+  padding: 10px 10px;
+  border: 20px;
+  margin-top: 10px;
+}
+
+#whatWeWoDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* center vertically */
+  align-items: center;
+  /* center horizontally */
+  height: 70vh;
+  /* full screen height */
+  text-align: center;
+  gap: 2px;
+  /* space between lines */
+  margin: 0px 10px;
+}
