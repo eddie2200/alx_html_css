@@ -1,0 +1,26 @@
+#heroSection {
+  background-image: url("https://w0.peakpx.com/wallpaper/107/380/HD-wallpaper-code-letters-screen-blur-colorful-lettering-signs.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+
+#projectImages {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  image-size: contain;
+  border-radius: 20px;
+}
